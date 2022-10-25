@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * put2 - prints one character out ot two
+ * puts2 - prints one character out ot two
  * @str: input
  * Return: print
  */
 void puts2(char *str)
 {
-
 	int i = 0;
 
 	for (; str[i] != '\0'; i++)
